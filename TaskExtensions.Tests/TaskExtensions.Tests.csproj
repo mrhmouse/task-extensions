@@ -50,6 +50,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="ExceptionHandlingTests.cs" />
     <Compile Include="LinqTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
