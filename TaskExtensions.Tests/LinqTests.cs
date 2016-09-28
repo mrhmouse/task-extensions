@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using NUnit.Framework;
 using TaskExtensions.Linq;
 
@@ -35,6 +36,20 @@ namespace TaskExtensions.Tests
 					(from y in Task.FromResult(3)
 					 select x + y);
 			Assert.AreEqual(5, projected.Result);
+		}
+
+		[Test(Description = "Failures propagate correctly")]
+		public void Failures_Propagate_Correctly()
+		{
+			Func<int> alwaysThrows = () =>
+			{
+				throw new Exception("always fails");
+			};
+
+			var task =
+				from x in Task.Run(alwaysThrows)
+				select x * 2;
+			Assert.Throws<AggregateException>(() => task.Wait());
 		}
 	}
 }
