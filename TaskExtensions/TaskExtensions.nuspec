@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>TaskExtensions</id>
+    <version>1.0.0</version>
+    <title>Task Extensions</title>
+    <authors>Jordan Brown</authors>
+    <owners>Jordan Brown</owners>
+    <licenseUrl>
+			https://github.com/mrhmouse/task-extensions/blob/master/LICENSE
+		</licenseUrl>
+    <projectUrl>
+			https://github.com/mrhmouse/task-extensions
+		</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+			Extension methods for tasks, including LINQ query syntax support,
+			task chaining, and exception handling.
+		</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Task LINQ async</tags>
+  </metadata>
+</package>
