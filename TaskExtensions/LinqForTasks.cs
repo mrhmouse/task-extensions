@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace TaskExtensions.Linq
+namespace TaskExtensions
 {
 	/// <summary>
 	/// Provides 'select' methods for tasks, without async/await.

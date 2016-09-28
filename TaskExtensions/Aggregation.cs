@@ -1,10 +1,9 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using TaskExtensions.Linq;
 
 namespace TaskExtensions
 {
-	public static class AggregationForTasks
+	public static class Aggregation
 	{
 		public static Task<T[]> And<T>(
 			this Task<T> source,

@@ -40,8 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AggregationForTasks.cs" />
-    <Compile Include="Linq\LinqForTasks.cs" />
+    <Compile Include="Aggregation.cs" />
+    <Compile Include="Chaining.cs" />
+    <Compile Include="LinqForTasks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ExceptionHandling.cs" />
   </ItemGroup>
