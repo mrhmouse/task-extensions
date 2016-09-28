@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskExtensions", "TaskExtensions\TaskExtensions.csproj", "{FBF658D7-9A6A-4F87-BE3D-ABE24F1364BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBrown.TaskExtensions", "JBrown.TaskExtensions\JBrown.TaskExtensions.csproj", "{FBF658D7-9A6A-4F87-BE3D-ABE24F1364BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskExtensions.Tests", "TaskExtensions.Tests\TaskExtensions.Tests.csproj", "{74CC421A-3208-49F0-A0AF-DADBB847F7E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBrown.TaskExtensions.Tests", "JBrown.TaskExtensions.Tests\JBrown.TaskExtensions.Tests.csproj", "{74CC421A-3208-49F0-A0AF-DADBB847F7E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

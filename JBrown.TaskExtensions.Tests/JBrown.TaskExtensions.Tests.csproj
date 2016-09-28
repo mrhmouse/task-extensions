@@ -60,9 +60,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TaskExtensions\TaskExtensions.csproj">
+    <ProjectReference Include="..\JBrown.TaskExtensions\JBrown.TaskExtensions.csproj">
       <Project>{fbf658d7-9a6a-4f87-be3d-abe24f1364bf}</Project>
-      <Name>TaskExtensions</Name>
+      <Name>JBrown.TaskExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

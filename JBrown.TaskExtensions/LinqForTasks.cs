@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace TaskExtensions
+namespace JBrown.TaskExtensions
 {
 	/// <summary>
 	/// Provides 'select' methods for tasks, without async/await.

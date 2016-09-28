@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
 
-namespace TaskExtensions.Tests
+namespace JBrown.TaskExtensions.Tests
 {
 	[TestFixture]
 	public class ExceptionHandlingTests
